@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-// import React from 'react';
-
 
 class Alert extends Component 
 {
@@ -21,7 +19,7 @@ class Alert extends Component
           rtl={false}
           pauseOnFocusLoss
           draggable
-          // pauseOnHover
+        
 />
       </div>
     );
